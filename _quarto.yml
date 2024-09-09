@@ -16,6 +16,10 @@ website:
         href: "https://github.com/pierredenelle"
       - text: "{{< iconify academicons google-scholar size=2x >}}"
         href: "https://scholar.google.fr/citations?user=x66knTsAAAAJ&hl=en&oi=ao"
+      - text: "{{< iconify simple-icons orcid size=2x >}}"  
+        href: "https://orcid.org/0000-0002-4729-3774"
+      - text: "{{< iconify simple-icons researchgate size=2x >}}"
+        href: "https://www.researchgate.net/profile/Pierre-Denelle"
 
 
 format:
