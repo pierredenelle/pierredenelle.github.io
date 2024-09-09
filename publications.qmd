@@ -2,7 +2,9 @@
 title: "Publications"
 ---
 
-27. **Denelle, P.,** Leroy, B., Lenormand, M. Bioregionalization analyses with the bioregion R-package. *arXiv*:2404.15300. <https://doi.org/10.48550/arXiv.2404.15300>
+## 2024
+
+27\. **Denelle, P.,** Leroy, B., Lenormand, M. Bioregionalization analyses with the bioregion R-package. *arXiv*:2404.15300. <https://doi.org/10.48550/arXiv.2404.15300>
 
 26\. Bellard, C., Marino, C., Butt, N., Fernández-Palacios, J.-M., Rigal, F., Robuchon, M., Lenoir, J., Irl, S., Benítez-López, A., Capdevila, P., Zhu, G., Caetano, G., **Denelle, P.,** Philippe-Lesaffre, M., Schipper, A., Foden, W., Kissling, D., Leclerc, C. A framework to quantify the vulnerability of insular biota to global change. ⟨hal-04550966⟩. <https://hal.science/hal-04550966/>
 
@@ -58,7 +60,7 @@ title: "Publications"
 
 6\. Grenié, M., Mouillot, D., Villéger, S., **Denelle, P.,** Tucker, C.M., Munoz, F. & Violle, C. Functional rarity of coral reef fishes at the global scale: Hotspots and challenges for conservation. *Biological Conservation*, 226, 288–299. <https://doi.org/10.1016/j.biocon.2018.08.011>
 
-5\. Munoz, F., Grenié, M., **Denelle, P.,** Taudière, A., Laroche, F., Tucker, C. & Violle, C. ecolottery: Simulating and assessing community assembly with environmental filtering and neutral dynamics in R. *Methods in Ecology and Evolution*, 9, 693–703. [https://doi.org/10.1111/2041-210X.12918 ](https://doi.org/10.1111/2041-210X.12918)
+5\. Munoz, F., Grenié, M., **Denelle, P.,** Taudière, A., Laroche, F., Tucker, C. & Violle, C. ecolottery: Simulating and assessing community assembly with environmental filtering and neutral dynamics in R. *Methods in Ecology and Evolution*, 9, 693–703. <https://doi.org/10.1111/2041-210X.12918>
 
 ## 2017
 
