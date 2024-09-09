@@ -11,6 +11,12 @@ website:
       - publications.qmd
       - R_packages.qmd
       - about.qmd
+    right: 
+      - text: "{{< iconify fa6-brands github size=2x >}}"
+        href: "https://github.com/pierredenelle"
+      - text: "{{< iconify academicons google-scholar size=2x >}}"
+        href: "https://scholar.google.fr/citations?user=x66knTsAAAAJ&hl=en&oi=ao"
+
 
 format:
   html:
