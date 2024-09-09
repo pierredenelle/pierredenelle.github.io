@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "This site has been created entirely with open-source software, using Quarto, R and is hosted on Github Pages."
   },
   {
     "objectID": "index.html",

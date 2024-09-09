@@ -10,8 +10,8 @@ website:
         text: Home
       - publications.qmd
       - R_packages.qmd
-      - about.qmd
     right: 
+      - about.qmd
       - text: "{{< iconify fa6-brands github size=2x >}}"
         href: "https://github.com/pierredenelle"
       - text: "{{< iconify academicons google-scholar size=2x >}}"

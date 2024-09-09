@@ -2,4 +2,4 @@
 title: "About"
 ---
 
-About this site
+This site has been created entirely with open-source software, using [Quarto](https://quarto.org/), R and is hosted on [Github Pages](https://pages.github.com/).
