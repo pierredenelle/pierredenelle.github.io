@@ -1,8 +1,38 @@
 ---
 title: "Research interests"
-image: images/Plant_richness.png
+image: images/GIFT_maps.png
 ---
 
 ## Diversity patterns at global scale
 
-![Modified from Cai et al. (2023)](images/Plant_richness.png)
+![Modified from Denelle et al. (2023)](images/GIFT_maps.png)
+
+**Selected publications**
+Denelle, P., Weigelt, P., & Kreft, H. GIFT—An R package to access the Global Inventory of Floras and Traits. Methods in Ecology and Evolution, 14, 2738–2748. https://doi.org/10.1111/2041-210X.14213
+
+Taylor, A., Weigelt, P., Denelle, P., Cai, L. and Kreft, H., The contribution of plant life and growth forms to global gradients of vascular plant diversity. New Phytologist, 240: 1548-1560. https://doi.org/10.1111/nph.19011
+
+Cai, L., Kreft, H., Taylor, A., Denelle, P., Schrader, J., Essl, F., van Kleunen, M., Pergl, J., Pyšek, P., Stein, A., Winter, M., Barcelona, J.F., Fuentes, N., Inderjit, , Karger, D.N., Kartesz, J., Kuprijanov, A., Nishino, M., Nickrent, D., Nowak, A., Patzelt, A., Pelser, P.B., Singh, P., Wieringa, J.J. and Weigelt, P., Global models and predictions of plant diversity based on advanced machine learning techniques. New Phytologist, 237: 1432-1445. https://doi.org/10.1111/nph.18533
+
+## Community assembly
+
+![](images/ecolottery_principle.png)
+
+**Selected publications**
+Denelle, P., Violle, C. & Munoz, F. Distinguishing the signatures of environmental filtering and trait range limits in the study of trait-environment relationships. Oikos, 128, 960-971. https://doi.org/10.1111/oik.05851
+
+Munoz, F., Grenié, M., Denelle, P., Taudière, A., Laroche, F., Tucker, C. & Violle, C. ecolottery: Simulating and assessing community assembly with environmental filtering and neutral dynamics in R. Methods in Ecology and Evolution, 9, 693–703. https://doi.org/10.1111/2041-210X.12918
+
+## Functional diversity
+
+![Modified from Grenié et al. (2017)](images/distinctiveness.png)
+
+**Selected publications**
+Barajas-Barbosa, P., Craven, D., Weigelt, P., Denelle, P., Otto, R., Díaz, S., Price, J., Fernández-Palacios, JM., Kreft, H. Assembly of functional diversity in an oceanic island flora. Nature 619, 545–550. https://doi.org/10.1038/s41586-023-06305-z
+
+## Bioregionalization
+
+![Modified from Denelle et al. (2024)](images/Figure_map_vegetation.png)
+
+**Selected publications**
+Denelle, Pierre, Boris Leroy, and Maxime Lenormand. “Bioregionalization Analyses with the Bioregion R-Package.” arXiv, March 28, 2024. http://arxiv.org/abs/2404.15300.
