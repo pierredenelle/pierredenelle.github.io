@@ -163,6 +163,10 @@ ul.task-list li input[type="checkbox"] {
 <p>My research addresses fundamental questions at the interface of community ecology, macroecology, and functional ecology. I aim to understand and predict the effects of the environment on patterns of biodiversity. I address these questions by combining large databases of species distributions, functional traits, phylogenetic characters, and environmental information with statistical modeling to unravel patterns of diversity across scales. Most of this work focuses on vascular plants.</p>
 <p><em>Key words</em></p>
 <p>Biogeography, community ecology, functional ecology, macroecology, plant diversity</p>
+<p>Coauthorship network</p>
+<p>![](images/test_image.png)</p>
+<p>Here is a footnote reference [^1].</p>
+<p>[^1] Footnote here.</p>
 
 
 
@@ -248,7 +252,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/pierredenelle\.github\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

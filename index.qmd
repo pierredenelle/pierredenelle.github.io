@@ -1,5 +1,6 @@
 ---
 title: "Pierre Denelle"
+image: "/images/test_image.png"
 ---
 
 I am Postdoctoral researcher at the University of Göttingen, in the [Biodiversity, Macroecology and Biogeography](https://www.uni-goettingen.de/en/128741.html) team.
@@ -9,3 +10,11 @@ My research addresses fundamental questions at the interface of community ecolog
 *Key words*
 
 Biogeography, community ecology, functional ecology, macroecology, plant diversity
+
+Coauthorship network
+
+\![\](images/test_image.png)
+
+Here is a footnote reference \[\^1\].
+
+\[\^1\] Footnote here.

@@ -101,12 +101,12 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./R_packages.html" aria-current="page"> 
 <span class="menu-text">R packages</span></a>
   </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="https://github.com/pierredenelle"> 
 <span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:github" style="font-size: 2em;" aria-label="Icon github from fa6-brands Iconify.design set." title="Icon github from fa6-brands Iconify.design set."></iconify-icon></span></a>
@@ -114,6 +114,14 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="https://scholar.google.fr/citations?user=x66knTsAAAAJ&amp;hl=en&amp;oi=ao"> 
 <span class="menu-text"><iconify-icon role="img" inline="" icon="academicons:google-scholar" style="font-size: 2em;" aria-label="Icon google-scholar from academicons Iconify.design set." title="Icon google-scholar from academicons Iconify.design set."></iconify-icon></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://orcid.org/0000-0002-4729-3774"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="simple-icons:orcid" style="font-size: 2em;" aria-label="Icon orcid from simple-icons Iconify.design set." title="Icon orcid from simple-icons Iconify.design set."></iconify-icon></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.researchgate.net/profile/Pierre-Denelle"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="simple-icons:researchgate" style="font-size: 2em;" aria-label="Icon researchgate from simple-icons Iconify.design set." title="Icon researchgate from simple-icons Iconify.design set."></iconify-icon></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -268,7 +276,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/pierredenelle\.github\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
