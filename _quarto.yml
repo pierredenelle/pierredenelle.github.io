@@ -9,6 +9,7 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - pages/research_interests.qmd
       - pages/publications.qmd
       - pages/R_packages.qmd
     right: 
@@ -28,6 +29,4 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
-editor: visual
 

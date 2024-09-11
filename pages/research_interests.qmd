@@ -1,0 +1,8 @@
+---
+title: "Research interests"
+image: images/Plant_richness.png
+---
+
+## Diversity patterns at global scale
+
+![Modified from Cai et al. (2023)](images/Plant_richness.png)
