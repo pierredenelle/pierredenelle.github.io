@@ -22,6 +22,9 @@ website:
         href: "https://orcid.org/0000-0002-4729-3774"
       - text: "{{< iconify simple-icons researchgate size=2x >}}"
         href: "https://www.researchgate.net/profile/Pierre-Denelle"
+  page-footer:
+    left: © Copyright 2024, Denelle Pierre
+    right: This website is built with [{{< iconify simple-icons rstudioide size=2x >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}, and is hosted on [GitHub Pages](https://pages.github.com/){target=_blank}
 
 
 format:
