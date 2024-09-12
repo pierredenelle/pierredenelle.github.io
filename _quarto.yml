@@ -13,6 +13,7 @@ website:
       - pages/publications.qmd
       - pages/R_packages.qmd
     right: 
+      - blog.qmd
       - pages/about.qmd
       - text: "{{< iconify fa6-brands github size=2x >}}"
         href: "https://github.com/pierredenelle"

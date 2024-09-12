@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://pierredenelle.github.io/pages/R_packages.html</loc>
-    <lastmod>2024-09-09T12:30:55.370Z</lastmod>
+    <loc>https://pierredenelle.github.io/posts/map_template/index.html</loc>
+    <lastmod>2024-09-12T19:48:05.233Z</lastmod>
   </url>
   <url>
-    <loc>https://pierredenelle.github.io/pages/publications.html</loc>
-    <lastmod>2024-09-11T20:40:47.455Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pierredenelle.github.io/index.html</loc>
-    <lastmod>2024-09-11T20:21:45.188Z</lastmod>
+    <loc>https://pierredenelle.github.io/pages/research_interests.html</loc>
+    <lastmod>2024-09-12T19:05:54.982Z</lastmod>
   </url>
   <url>
     <loc>https://pierredenelle.github.io/pages/about.html</loc>
     <lastmod>2024-09-11T14:03:38.909Z</lastmod>
   </url>
   <url>
-    <loc>https://pierredenelle.github.io/pages/research_interests.html</loc>
-    <lastmod>2024-09-12T19:05:54.982Z</lastmod>
+    <loc>https://pierredenelle.github.io/blog.html</loc>
+    <lastmod>2024-09-12T19:29:40.953Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pierredenelle.github.io/index.html</loc>
+    <lastmod>2024-09-11T20:21:45.188Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pierredenelle.github.io/pages/publications.html</loc>
+    <lastmod>2024-09-11T20:40:47.455Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pierredenelle.github.io/pages/R_packages.html</loc>
+    <lastmod>2024-09-09T12:30:55.370Z</lastmod>
   </url>
 </urlset>

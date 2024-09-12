@@ -1,10 +1,66 @@
 [
   {
-    "objectID": "pages/R_packages.html",
-    "href": "pages/R_packages.html",
-    "title": "R packages",
+    "objectID": "posts/map_template/index.html",
+    "href": "posts/map_template/index.html",
+    "title": "Template for maps in R",
     "section": "",
-    "text": "Here is a list of R packages I have authored or contributed to:\n\n\n\nPackage name\nPackage status\nDescription\n\n\n\n\nfunrar\n\nCompute functional rarity indices (see more at https://rekyt.github.io/funrar/)\n\n\necolottery\n\nAn R package to simulate community assembly using coalescent theory\n\n\nGIFT\n\nAn R package to access the Global Inventory of Floras and Traits (GIFT) database (see more at https://biogeomacro.github.io/GIFT/)\n\n\nbioregion\n\nWorkflow to provide a bioregionalization analysis (see more at https://biorgeo.github.io/bioregion/)"
+    "text": "How to make a template for global maps.\n\n# Packages needed\n{\n  library(\"ggplot2\") # plotting\n  library(\"sf\") # spatial library\n  library(\"rnaturalearth\") # shape files for countries and coastlines\n  library(\"rnaturalearthdata\") # shape files for countries and coastlines\n}\n\nShapefiles for countries and coastlines are available with the libraries rnaturalearth and rnaturalearthdata.\n\n# Load data\nworld &lt;- ne_coastline(scale = \"medium\", returnclass = \"sf\")\nworld_countries &lt;- ne_countries(scale = \"medium\", returnclass = \"sf\")\n\nSince we have a sf object, we can directly plot it:\n\nggplot(world) +\n  geom_sf()\n\n\n\n\n\n\n\n\nIn the next steps, we: - add the Equator line\n- Project the shapes with an equal-area projection\n- Draw a background box, for the oceans and seas\n- Combine everything into one plot\n\n# Fixing polygons crossing dateline\nworld &lt;- st_wrap_dateline(world)\nworld_countries &lt;- st_wrap_dateline(world_countries)\n\n# Eckert IV projection\neckertIV &lt;-\n  \"+proj=eck4 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs\"\n\n# Background box\nxmin &lt;- st_bbox(world)[[\"xmin\"]]; xmax &lt;- st_bbox(world)[[\"xmax\"]]\nymin &lt;- st_bbox(world)[[\"ymin\"]]; ymax &lt;- st_bbox(world)[[\"ymax\"]]\nbb &lt;- sf::st_union(sf::st_make_grid(st_bbox(c(xmin = xmin,\n                                              xmax = xmax,\n                                              ymax = ymax,\n                                              ymin = ymin),\n                                            crs = st_crs(4326)),\n                                    n = 100))\n\n# Equator line\nequator &lt;- st_linestring(matrix(c(-180, 0, 180, 0), ncol = 2, byrow = TRUE))\nequator &lt;- st_sfc(equator, crs = st_crs(world))\n\n# Plot\nplot_basis &lt;- ggplot(world) +\n  geom_sf(data = bb, fill = \"aliceblue\") +\n  geom_sf(data = equator, color = \"gray50\", linetype = \"dashed\",\n          linewidth = 0.1) +\n  geom_sf(data = world_countries, fill = \"antiquewhite1\", color = NA) +\n  geom_sf(color = \"gray50\", linewidth = 0.1) +\n  geom_sf(data = bb, fill = NA) +\n  coord_sf(crs = eckertIV) +\n  theme_void()\n\nplot_basis"
+  },
+  {
+    "objectID": "pages/research_interests.html",
+    "href": "pages/research_interests.html",
+    "title": "Research interests",
+    "section": "",
+    "text": "With a taxonomic focus on vascular plants, I am interested in patterns of biodiversity facets (taxonomic, functional, phylogenetic) across scales as well as their environmental drivers.\n\n\n\nModified from Denelle et al. (2023)\n\n\nSelected publications\nDenelle et al. (2023) Methods in Ecology and Evolution, 14:2738–2748. | \nTaylor et al. (2023) New Phytologist, 240:1548-1560. | \nCai et al. (2023) New Phytologist, 237:1432-1445. |"
+  },
+  {
+    "objectID": "pages/research_interests.html#diversity-patterns-at-global-scale",
+    "href": "pages/research_interests.html#diversity-patterns-at-global-scale",
+    "title": "Research interests",
+    "section": "",
+    "text": "With a taxonomic focus on vascular plants, I am interested in patterns of biodiversity facets (taxonomic, functional, phylogenetic) across scales as well as their environmental drivers.\n\n\n\nModified from Denelle et al. (2023)\n\n\nSelected publications\nDenelle et al. (2023) Methods in Ecology and Evolution, 14:2738–2748. | \nTaylor et al. (2023) New Phytologist, 240:1548-1560. | \nCai et al. (2023) New Phytologist, 237:1432-1445. |"
+  },
+  {
+    "objectID": "pages/research_interests.html#community-assembly",
+    "href": "pages/research_interests.html#community-assembly",
+    "title": "Research interests",
+    "section": "Community assembly",
+    "text": "Community assembly\nSpecies observed at the local scale are a small subset of a larger regional species pool. Using process-based models and empirical data, I am interested in unraveling the various processes that filter the arrival and establishment of species at the local scale.\n\n\n\nCommunity assembly model\n\n\nSelected publications\nDenelle et al. (2019) Oikos, 128:960-971. | \nMunoz et al. (2018) Methods in Ecology and Evolution, 9:693–703. |"
+  },
+  {
+    "objectID": "pages/research_interests.html#functional-diversity",
+    "href": "pages/research_interests.html#functional-diversity",
+    "title": "Research interests",
+    "section": "Functional diversity",
+    "text": "Functional diversity\nAlong with taxonomic and phylogenetic diversity, functional diversity is the third facet of biodiversity. I am interested in developing metrics to calculate and estimate functional diversity, as well as in empirical patterns.\n\n\n\nModified from Grenié et al. (2017)\n\n\nSelected publications\nBarajas-Barbosa et al. (2023) Nature 619:545–550. | \nGrenié et al. (2017) Diversity and Distributions, 23:1365-1371.| \nMouillot et al. (2021) Ecology Letters, 24:1988-2009. |"
+  },
+  {
+    "objectID": "pages/research_interests.html#bioregionalization",
+    "href": "pages/research_interests.html#bioregionalization",
+    "title": "Research interests",
+    "section": "Bioregionalization",
+    "text": "Bioregionalization\nAcross scales, species cluster into distinct taxonomic units called bioregions. There are many methods for doing this, and we have recently developed a tool that incorporates most of the existing bioregionalization techniques.\n\n\n\nModified from Denelle et al. (2024)\n\n\nSelected publications\nDenelle et al. (2024) arXiv. |"
+  },
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "About",
+    "section": "",
+    "text": "This site has been created entirely with open-source software, using Quarto, R and is hosted on Github Pages."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Template for maps in R\n\n\ndata visualization with R\n\n\n\ndataviz\n\n\nhow-to\n\n\n\n\n\n\n\n\n\nDec 9, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pierre Denelle",
+    "section": "",
+    "text": "I am Postdoctoral researcher at the University of Göttingen, in the Biodiversity, Macroecology and Biogeography team.\nMy research addresses fundamental questions at the interface of community ecology, macroecology, and functional ecology. I aim to understand and predict the effects of the environment on patterns of biodiversity. I address these questions by combining large databases of species distributions, functional traits, phylogenetic characters, and environmental information with statistical modeling to unravel patterns of diversity across scales. Most of this work focuses on vascular plants.\nKey words\nBiogeography, community ecology, functional ecology, macroecology, plant diversity\nCoauthorship network\nHere is a snapshot view of my collaborations.[^1] \n[^1]The links were extracted from my publications, using the scholar R package. The code was inspired by this page."
   },
   {
     "objectID": "pages/publications.html",
@@ -70,52 +126,10 @@
     "text": "2017\n4. Grenié, M., Denelle, P., Tucker, C.M., Munoz, F. & Violle, C. funrar: An R package to characterize functional rarity. Diversity and Distributions, 23, 1365-1371. https://doi.org/10.1111/ddi.12629\n3. Borgy, B., Violle, C., Choler, P., Denelle, P., Munoz, F., Kattge, J., Lavorel, S., Loranger, J., Amiaud, B., Bahn, M., van Bodegom, P.M., Brisse, H., Debarros, G., Diquelou, S., Gachet, S., Jolivet, C., Lemauviel-Lavenant, S., Mikolajczak, A., Olivier, J., Ordoñez, J., de Ruffray, P., Viovy, N. & Garnier, E. Plant community structure and nitrogen inputs modulate the climate signal on leaf traits. Global Ecology and Biogeography, 26, 1138–1152. https://doi.org/10.1111/geb.12623\n2. Borgy, B., Violle, C., Choler, P., Garnier, E., Kattge, J., Loranger, J., Amiaud, B., Cellier, P., Debarros, G., Denelle, P., Diquelou, S., Gachet, S., Jolivet, C., Lavorel, S., Lemauviel-Lavenant, S., Mikolajczak, A., Munoz, F., Olivier, J. & Viovy, N. Sensitivity of community-level trait–environment relationships to data representativeness: A test for functional biogeography. Global Ecology and Biogeography, 26, 729–739. https://doi.org/10.1111/geb.12573\n1. Allen, K.A., Denelle, P., Ruiz, F.M.S., Santana, V.M. & Marrs, R.H. Prescribed moorland burning meets good practice guidelines: A monitoring case study using aerial photography in the Peak District, UK. Ecological Indicators, 62, 76–85. https://doi.org/10.1016/j.ecolind.2015.11.030"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pierre Denelle",
+    "objectID": "pages/R_packages.html",
+    "href": "pages/R_packages.html",
+    "title": "R packages",
     "section": "",
-    "text": "I am Postdoctoral researcher at the University of Göttingen, in the Biodiversity, Macroecology and Biogeography team.\nMy research addresses fundamental questions at the interface of community ecology, macroecology, and functional ecology. I aim to understand and predict the effects of the environment on patterns of biodiversity. I address these questions by combining large databases of species distributions, functional traits, phylogenetic characters, and environmental information with statistical modeling to unravel patterns of diversity across scales. Most of this work focuses on vascular plants.\nKey words\nBiogeography, community ecology, functional ecology, macroecology, plant diversity\nCoauthorship network\nHere is a snapshot view of my collaborations.[^1] \n[^1]The links were extracted from my publications, using the scholar R package. The code was inspired by this page."
-  },
-  {
-    "objectID": "pages/about.html",
-    "href": "pages/about.html",
-    "title": "About",
-    "section": "",
-    "text": "This site has been created entirely with open-source software, using Quarto, R and is hosted on Github Pages."
-  },
-  {
-    "objectID": "pages/research_interests.html",
-    "href": "pages/research_interests.html",
-    "title": "Research interests",
-    "section": "",
-    "text": "With a taxonomic focus on vascular plants, I am interested in patterns of biodiversity facets (taxonomic, functional, phylogenetic) across scales as well as their environmental drivers.\n\n\n\nModified from Denelle et al. (2023)\n\n\nSelected publications\nDenelle et al. (2023) Methods in Ecology and Evolution, 14:2738–2748. | \nTaylor et al. (2023) New Phytologist, 240:1548-1560. | \nCai et al. (2023) New Phytologist, 237:1432-1445. |"
-  },
-  {
-    "objectID": "pages/research_interests.html#diversity-patterns-at-global-scale",
-    "href": "pages/research_interests.html#diversity-patterns-at-global-scale",
-    "title": "Research interests",
-    "section": "",
-    "text": "With a taxonomic focus on vascular plants, I am interested in patterns of biodiversity facets (taxonomic, functional, phylogenetic) across scales as well as their environmental drivers.\n\n\n\nModified from Denelle et al. (2023)\n\n\nSelected publications\nDenelle et al. (2023) Methods in Ecology and Evolution, 14:2738–2748. | \nTaylor et al. (2023) New Phytologist, 240:1548-1560. | \nCai et al. (2023) New Phytologist, 237:1432-1445. |"
-  },
-  {
-    "objectID": "pages/research_interests.html#community-assembly",
-    "href": "pages/research_interests.html#community-assembly",
-    "title": "Research interests",
-    "section": "Community assembly",
-    "text": "Community assembly\nSpecies observed at the local scale are a small subset of a larger regional species pool. Using process-based models and empirical data, I am interested in unraveling the various processes that filter the arrival and establishment of species at the local scale.\n\n\n\nCommunity assembly model\n\n\nSelected publications\nDenelle et al. (2019) Oikos, 128:960-971. | \nMunoz et al. (2018) Methods in Ecology and Evolution, 9:693–703. |"
-  },
-  {
-    "objectID": "pages/research_interests.html#functional-diversity",
-    "href": "pages/research_interests.html#functional-diversity",
-    "title": "Research interests",
-    "section": "Functional diversity",
-    "text": "Functional diversity\nAlong with taxonomic and phylogenetic diversity, functional diversity is the third facet of biodiversity. I am interested in developing metrics to calculate and estimate functional diversity, as well as in empirical patterns.\n\n\n\nModified from Grenié et al. (2017)\n\n\nSelected publications\nBarajas-Barbosa et al. (2023) Nature 619:545–550. | \nGrenié et al. (2017) Diversity and Distributions, 23:1365-1371.| \nMouillot et al. (2021) Ecology Letters, 24:1988-2009. |"
-  },
-  {
-    "objectID": "pages/research_interests.html#bioregionalization",
-    "href": "pages/research_interests.html#bioregionalization",
-    "title": "Research interests",
-    "section": "Bioregionalization",
-    "text": "Bioregionalization\nAcross scales, species cluster into distinct taxonomic units called bioregions. There are many methods for doing this, and we have recently developed a tool that incorporates most of the existing bioregionalization techniques.\n\n\n\nModified from Denelle et al. (2024)\n\n\nSelected publications\nDenelle et al. (2024) arXiv. |"
+    "text": "Here is a list of R packages I have authored or contributed to:\n\n\n\nPackage name\nPackage status\nDescription\n\n\n\n\nfunrar\n\nCompute functional rarity indices (see more at https://rekyt.github.io/funrar/)\n\n\necolottery\n\nAn R package to simulate community assembly using coalescent theory\n\n\nGIFT\n\nAn R package to access the Global Inventory of Floras and Traits (GIFT) database (see more at https://biogeomacro.github.io/GIFT/)\n\n\nbioregion\n\nWorkflow to provide a bioregionalization analysis (see more at https://biorgeo.github.io/bioregion/)"
   }
 ]

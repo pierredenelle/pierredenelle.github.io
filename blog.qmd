@@ -1,0 +1,13 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: numbered
+  sort-ui: false
+  filter-ui: false
+  # max-description-length: 175
+page-layout: full
+title-block-banner: false
+---
