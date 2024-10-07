@@ -1,5 +1,5 @@
 ---
-title: "R packages"
+title: "R packages/applications"
 ---
 
 Here is a list of R packages I have authored or contributed to:
@@ -10,3 +10,12 @@ Here is a list of R packages I have authored or contributed to:
 | [ecolottery](https://github.com/frmunoz/ecolottery) | [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ecolottery)](https://cran.r-project.org/package=ecolottery) | An R package to simulate community assembly using coalescent theory                                                                  |
 | [GIFT](https://github.com/biogeomacro/gift)         | ![](https://www.r-pkg.org/badges/version/GIFT)                                                                        | An R package to access the Global Inventory of Floras and Traits (GIFT) database (see more at <https://biogeomacro.github.io/GIFT/>) |
 | [bioregion](https://github.com/biorgeo/bioregion)   | [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/bioregion)](https://cran.r-project.org/package=bioregion)   | Workflow to provide a bioregionalization analysis (see more at <https://biorgeo.github.io/bioregion/>)                               |
+
+# Shiny applications
+Below is a list of Shiny applications I have authored:
+
+1\. Trait-environment relationships. <https://shiny.cefe.cnrs.fr/trait_environment_relationships/>
+
+2\. Bioregionalization of French vegetation. <https://shiny.umr-tetis.fr/CarHab/>
+
+3\. Application to test and train botanical knowledge. <https://gift.uni-goettingen.de/shiny/BotanizeR/>
