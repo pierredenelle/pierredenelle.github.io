@@ -2,11 +2,13 @@
 title: "Publications"
 ---
 
+## 2025
+
+28\. **Denelle, P.,** Leroy, B., & Lenormand, M. Bioregionalization analyses with the bioregion R package. *Methods in Ecology and Evolution*. <https://doi.org/10.1111/2041-210X.14496>
+
 ## 2024
 
-28\. Cai, L., Kreft, H., **Denelle, P.**, Taylor, A., Craven, D., Dawson, W., Essl, F., van Kleunen, M., Pergl, J., Pyšek, P., Winter, M., Cabezas, F., Wagner, V., Pelser, P., Wieringa, J., & Weigelt, P. Environmental filtering, not dispersal history, explains global patterns of phylogenetic turnover in seed plants at deep evolutionary timescales. *Nature in Ecology and Evolution*:1-11. <https://doi.org/10.1038/s41559-024-02599-y>
-
-27\. **Denelle, P.,** Leroy, B., & Lenormand, M. Bioregionalization analyses with the bioregion R-package. *arXiv*:2404.15300. <https://doi.org/10.48550/arXiv.2404.15300>
+27\. Cai, L., Kreft, H., **Denelle, P.**, Taylor, A., Craven, D., Dawson, W., Essl, F., van Kleunen, M., Pergl, J., Pyšek, P., Winter, M., Cabezas, F., Wagner, V., Pelser, P., Wieringa, J., & Weigelt, P. Environmental filtering, not dispersal history, explains global patterns of phylogenetic turnover in seed plants at deep evolutionary timescales. *Nature in Ecology and Evolution*:1-11. <https://doi.org/10.1038/s41559-024-02599-y>
 
 26\. Bellard, C., Marino, C., Butt, N., Fernández-Palacios, J.-M., Rigal, F., Robuchon, M., Lenoir, J., Irl, S., Benítez-López, A., Capdevila, P., Zhu, G., Caetano, G., **Denelle, P.,** Philippe-Lesaffre, M., Schipper, A., Foden, W., Kissling, D., & Leclerc, C. A framework to quantify the vulnerability of insular biota to global change. ⟨hal-04550966⟩. <https://hal.science/hal-04550966/>
 
