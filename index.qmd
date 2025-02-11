@@ -13,7 +13,7 @@ Biogeography, community ecology, functional ecology, macroecology, plant diversi
 
 **Coauthorship network**
 
-Here is a snapshot view of my collaborations.[^1]
-![](pages/images/coauthorship_network.png)
+Here is a dynamic view of my collaborations[^1]:
+![Dynamic](pages/images/Pierre_coauthor_network.html){width=1000px height=1000px}
 
-[^1]The links were extracted from my publications, using the scholar R package. The code was inspired by this [page](https://datalab.ucdavis.edu/2019/08/27/creating-co-author-networks-in-r/).
+[^1]The links were extracted from my publications, using the scholar R package. The code was inspired by this [page](https://datalab.ucdavis.edu/project/creating-co-author-networks-in-r/)

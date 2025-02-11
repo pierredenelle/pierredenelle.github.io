@@ -2,16 +2,16 @@
 title: "R packages/applications"
 ---
 
-
 ## R packages
+
 Here is a list of R packages I have authored or contributed to:
 
-| Package name                                        | Package status                                                                                                        | Description                                                                                                                          |
-|-----------------|--------------------------|-----------------------------|
-| [funrar](https://github.com/Rekyt/funrar)           | [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/funrar)](https://cran.r-project.org/package=funrar){.funrar-release}        | Compute functional rarity indices (see more at <https://rekyt.github.io/funrar/>)                                                    |
-| [ecolottery](https://github.com/frmunoz/ecolottery) | [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ecolottery)](https://cran.r-project.org/package=ecolottery) | An R package to simulate community assembly using coalescent theory                                                                  |
-| [GIFT](https://github.com/biogeomacro/gift)         | ![](https://www.r-pkg.org/badges/version/GIFT)                                                                        | An R package to access the Global Inventory of Floras and Traits (GIFT) database (see more at <https://biogeomacro.github.io/GIFT/>) |
-| [bioregion](https://github.com/biorgeo/bioregion)   | [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/bioregion)](https://cran.r-project.org/package=bioregion)   | Workflow to provide a bioregionalization analysis (see more at <https://biorgeo.github.io/bioregion/>)                               |
+| Package name                                        | Package status                                                                                                                  | Description                                                                                                                          |
+|------------------|--------------------------|----------------------------|
+| [funrar](https://github.com/Rekyt/funrar)           | [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/funrar)](https://cran.r-project.org/package=funrar){.funrar-release} | Compute functional rarity indices (see more at <https://rekyt.github.io/funrar/>)                                                    |
+| [ecolottery](https://github.com/frmunoz/ecolottery) | [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ecolottery)](https://cran.r-project.org/package=ecolottery)           | An R package to simulate community assembly using coalescent theory                                                                  |
+| [GIFT](https://github.com/biogeomacro/gift)         | ![](https://www.r-pkg.org/badges/version/GIFT)                                                                                  | An R package to access the Global Inventory of Floras and Traits (GIFT) database (see more at <https://biogeomacro.github.io/GIFT/>) |
+| [bioregion](https://github.com/biorgeo/bioregion)   | [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/bioregion)](https://cran.r-project.org/package=bioregion)             | Workflow to provide a bioregionalization analysis (see more at <https://biorgeo.github.io/bioregion/>)                               |
 
 ## Shiny applications
 
