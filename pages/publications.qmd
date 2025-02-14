@@ -5,6 +5,8 @@ title: "Publications"
 ## Peer-reviewed articles
 ### 2025
 
+28\. Dugerdil, L., Peyron, O., Violle, C., Joannin, S., Ménot, G., **Denelle, P.**, Bruelheide, H., Chytrý, M., Field, R., Hatim, M. Z., Gholizadeh, H., Dolezal, J., Pillar, V. D., Shaltout, K. H., Schrodt, F., & Garnier, E. Functional Signatures of Surface Pollen and Vegetation Are Broadly Similar: Good News for Past Reconstructions of Vegetation. *Journal of Biogeography*. <https://doi.org/10.1111/jbi.15100>
+
 27\. **Denelle, P.,** Leroy, B., & Lenormand, M. Bioregionalization analyses with the bioregion R package. *Methods in Ecology and Evolution*. <https://doi.org/10.1111/2041-210X.14496>
 
 ### 2024
