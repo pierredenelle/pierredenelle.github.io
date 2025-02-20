@@ -51,4 +51,4 @@ Across scales, species cluster into distinct taxonomic units called bioregions. 
 
 **Selected publications**
 
-Denelle *et al.* (2024) *Methods in Ecology and Evolution*. | <a href="https://doi.org/10.1111/2041-210X.14496" target="_blank"><img src="https://img.shields.io/badge/DOI-10.1111/2041-210X.14496-007dc4ff.svg"/></a> 
+Denelle *et al.* (2024) *Methods in Ecology and Evolution*. | <a href="https://doi.org/10.1111/2041-210X.14496" target="_blank"><img src="https://img.shields.io/badge/DOI-10.1111/2041--210X.14496-007dc4ff.svg"/></a> 
