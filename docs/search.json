@@ -130,7 +130,7 @@
     "href": "pages/R_packages.html",
     "title": "R packages/applications",
     "section": "",
-    "text": "R packages provide ready-to-use toolkits for the scientific community. Here is a list of R packages I have authored or contributed to:\n\n\n\nPackage name\nPackage status\nDescription\n\n\n\n\nfunrar\n\nCompute functional rarity indices (see more at https://rekyt.github.io/funrar/)\n\n\necolottery\n\nCommunity assembly model using coalescent theory, neutral and deterministic processes\n\n\nGIFT\n\nAccess the Global Inventory of Floras and Traits (GIFT) database (see more at https://biogeomacro.github.io/GIFT/)\n\n\nbioregion\n\nWorkflow to perform a bioregionalization analysis (see more at https://biorgeo.github.io/bioregion/)"
+    "text": "R packages provide ready-to-use toolkits for the scientific community. Here is a list of R packages I have authored or contributed to:\n\n\n\nName\nCRAN version\nDescription\n\n\n\n\nfunrar\n1.5.0\nCompute functional rarity indices (see more at https://rekyt.github.io/funrar/)\n\n\necolottery\n1.0.0\nCommunity assembly model using coalescent theory, neutral and deterministic processes\n\n\nGIFT\n1.3.3\nAccess the Global Inventory of Floras and Traits (GIFT) database (see more at https://biogeomacro.github.io/GIFT/)\n\n\nbioregion\n1.2.0\nWorkflow to perform a bioregionalization analysis (see more at https://biorgeo.github.io/bioregion/)"
   },
   {
     "objectID": "pages/publications.html#section-8",
@@ -165,14 +165,14 @@
     "href": "pages/R_packages.html#r-packages",
     "title": "R packages/applications",
     "section": "",
-    "text": "R packages provide ready-to-use toolkits for the scientific community. Here is a list of R packages I have authored or contributed to:\n\n\n\nPackage name\nPackage status\nDescription\n\n\n\n\nfunrar\n\nCompute functional rarity indices (see more at https://rekyt.github.io/funrar/)\n\n\necolottery\n\nCommunity assembly model using coalescent theory, neutral and deterministic processes\n\n\nGIFT\n\nAccess the Global Inventory of Floras and Traits (GIFT) database (see more at https://biogeomacro.github.io/GIFT/)\n\n\nbioregion\n\nWorkflow to perform a bioregionalization analysis (see more at https://biorgeo.github.io/bioregion/)"
+    "text": "R packages provide ready-to-use toolkits for the scientific community. Here is a list of R packages I have authored or contributed to:\n\n\n\nName\nCRAN version\nDescription\n\n\n\n\nfunrar\n1.5.0\nCompute functional rarity indices (see more at https://rekyt.github.io/funrar/)\n\n\necolottery\n1.0.0\nCommunity assembly model using coalescent theory, neutral and deterministic processes\n\n\nGIFT\n1.3.3\nAccess the Global Inventory of Floras and Traits (GIFT) database (see more at https://biogeomacro.github.io/GIFT/)\n\n\nbioregion\n1.2.0\nWorkflow to perform a bioregionalization analysis (see more at https://biorgeo.github.io/bioregion/)"
   },
   {
     "objectID": "pages/R_packages.html#shiny-applications",
     "href": "pages/R_packages.html#shiny-applications",
     "title": "R packages/applications",
     "section": "Shiny applications",
-    "text": "Shiny applications\nShiny applications are interactive web applications that can, among other things, enhance the visualizations of results or provide a nice interface to practise specific knowledge.\nBelow is a list of Shiny applications I have authored:\n1. Trait-environment relationships in grassland plants.\nhttps://shiny.cefe.cnrs.fr/trait_environment_relationships/\nAssociated publication: \n2. Bioregionalization of French vegetation.\nhttps://shiny.umr-tetis.fr/CarHab/\nAssociated publication (in French) here.\n3. Application to test and train botanical knowledge. https://gift.uni-goettingen.de/shiny/BotanizeR/\nAssociated publication: \n4. Conservation priorities across New Guinea.\nhttps://gift.uni-goettingen.de/shiny/PNG/\nAssociated publication in revision."
+    "text": "Shiny applications\nShiny applications are interactive web applications that can, among other things, improve the visualization of results or provide a nice interface to practice specific knowledge.\nBelow is a list of Shiny applications I have authored:\n1. Trait-environment relationships in grassland plants.\nhttps://shiny.cefe.cnrs.fr/trait_environment_relationships/\nAssociated publication: \n2. Bioregionalization of French vegetation.\nhttps://shiny.umr-tetis.fr/CarHab/\nAssociated publication (in French) here.\n3. Application to test and train botanical knowledge.\nhttps://gift.uni-goettingen.de/shiny/BotanizeR/\nAssociated publication: \n4. Conservation priorities across New Guinea.\nhttps://gift.uni-goettingen.de/shiny/PNG/\nAssociated article in revision."
   },
   {
     "objectID": "index.html#footnotes",
