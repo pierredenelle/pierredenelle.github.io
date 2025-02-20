@@ -4,23 +4,31 @@ title: "R packages/applications"
 
 ## R packages
 
-Here is a list of R packages I have authored or contributed to:
+R packages provide ready-to-use toolkits for the scientific community. Here is a list of R packages I have authored or contributed to:
 
 | Package name                                        | Package status                                                                                                                  | Description                                                                                                                          |
 |------------------|--------------------------|----------------------------|
 | [funrar](https://github.com/Rekyt/funrar)           | [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/funrar)](https://cran.r-project.org/package=funrar){.funrar-release} | Compute functional rarity indices (see more at <https://rekyt.github.io/funrar/>)                                                    |
-| [ecolottery](https://github.com/frmunoz/ecolottery) | [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ecolottery)](https://cran.r-project.org/package=ecolottery)           | An R package to simulate community assembly using coalescent theory                                                                  |
-| [GIFT](https://github.com/biogeomacro/gift)         | ![](https://www.r-pkg.org/badges/version/GIFT)                                                                                  | An R package to access the Global Inventory of Floras and Traits (GIFT) database (see more at <https://biogeomacro.github.io/GIFT/>) |
-| [bioregion](https://github.com/biorgeo/bioregion)   | [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/bioregion)](https://cran.r-project.org/package=bioregion)             | Workflow to provide a bioregionalization analysis (see more at <https://biorgeo.github.io/bioregion/>)                               |
+| [ecolottery](https://github.com/frmunoz/ecolottery) | [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ecolottery)](https://cran.r-project.org/package=ecolottery)           | Community assembly model using coalescent theory, neutral and deterministic processes                                                                  |
+| [GIFT](https://github.com/biogeomacro/gift)         | ![](https://www.r-pkg.org/badges/version/GIFT)                                                                                  | Access the Global Inventory of Floras and Traits (GIFT) database (see more at <https://biogeomacro.github.io/GIFT/>) |
+| [bioregion](https://github.com/biorgeo/bioregion)   | [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/bioregion)](https://cran.r-project.org/package=bioregion)             | Workflow to perform a bioregionalization analysis (see more at <https://biorgeo.github.io/bioregion/>)                               |
 
 ## Shiny applications
 
+Shiny applications are interactive web applications that can, among other things, improve the visualization of results or provide a nice interface to practice specific knowledge.  
 Below is a list of Shiny applications I have authored:
 
-1\. Trait-environment relationships. <https://shiny.cefe.cnrs.fr/trait_environment_relationships/>
+1\. Trait-environment relationships in grassland plants.  
+<https://shiny.cefe.cnrs.fr/trait_environment_relationships/>  
+Associated publication: <a href="https://doi.org/10.1111/geb.12623" target="_blank"><img src="https://img.shields.io/badge/DOI-10.1111/geb.12623-008fffff.svg"/></a>   
 
-2\. Bioregionalization of French vegetation. <https://shiny.umr-tetis.fr/CarHab/>
+2\. Bioregionalization of French vegetation.  
+<https://shiny.umr-tetis.fr/CarHab/>  
+Associated publication (in French) [here](https://hal-lara.archives-ouvertes.fr/hal-04269906/).  
 
-3\. Application to test and train botanical knowledge. <https://gift.uni-goettingen.de/shiny/BotanizeR/>
+3\. Application to test and train botanical knowledge.   <https://gift.uni-goettingen.de/shiny/BotanizeR/>  
+Associated publication: <a href="https://doi.org/10.1002/ppp3.10226" target="_blank"><img src="https://img.shields.io/badge/DOI-110.1002/ppp3.10226-008fffff.svg"/></a>   
 
-4\. Conservation priorities across New Guinea. <https://gift.uni-goettingen.de/shiny/PNG/>
+4\. Conservation priorities across New Guinea.  
+<https://gift.uni-goettingen.de/shiny/PNG/>  
+Associated publication in revision.  

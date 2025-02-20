@@ -3,7 +3,7 @@ title: "Research interests"
 image: images/GIFT_maps.png
 ---
 
-## Diversity patterns at global scale
+## Diversity patterns at large scale
 
 With a taxonomic focus on vascular plants, I am interested in patterns of biodiversity facets (taxonomic, functional, phylogenetic) across scales as well as their environmental drivers.
 

@@ -1,18 +1,27 @@
 ---
-title: "Pierre Denelle"
+title: "About me"
 image: pages/images/coauthorship_network.png
 ---
 
-I am Postdoctoral researcher at the University of Göttingen, in the [Biodiversity, Macroecology and Biogeography](https://www.uni-goettingen.de/en/128741.html) team.
+```{=html}
+<style>
+.flushright {
+   text-align: justify;
+}
+</style>
+```
 
-My research addresses fundamental questions at the interface of community ecology, macroecology, and functional ecology. I aim to understand and predict the effects of the environment on patterns of biodiversity. I address these questions by combining large databases of species distributions, functional traits, phylogenetic characters, and environmental information with statistical modeling to unravel patterns of diversity across scales. Although most of this work focuses on vascular plants, I am always interested in and curious about applying the concepts and methods to other taxa.
+Welcome to this site! I am a postdoctoral researcher at the University of Göttingen, in the [Biodiversity, Macroecology and Biogeography](https://www.uni-goettingen.de/en/128741.html) team.
 
-*Key words*
-Biogeography, community assembly, community ecology, diversity indices, functional ecology, macroecology
+::: {.flushright data-latex=""}
+My research focuses on community assembly, functional ecology, and biogeography/macroecology. Through these disciplines, I seek to understand what governs the presence of species in a given environment, taking into account biotic and abiotic constraints at different scales. To address these issues, I draw in particular on the theoretical and methodological contributions of functional ecology.
+Although most of this work focuses on vascular plants, I am always interested in and curious about applying the concepts and methods to other taxa.
 
-**Coauthorship network**
+As of February 2025, I have participated in 29 peer-reviewed publications that address these questions. You can find all these publications in the dedicated section.
 
-As of February 2025, I have participated in 29 peer-reviewed publications with a total of 156 co-authors. Below is an interactive visualization of this coauthorship network, which I hope will continue to grow and expand.
-To create this graph, I first extracted information from my publications using the [scholar R package](https://CRAN.R-project.org/package=scholar). Then I used the R package [visNetwork](https://CRAN.R-project.org/package=visNetwork). The following [page](https://datalab.ucdavis.edu/project/creating-co-author-networks-in-r/) was also helpful for inspiration.
+Below is an interactive visualization of my coauthorship network[^1], with a total of 156 coauthors, which I hope will continue to grow and expand.
+:::
 
 ![Coauthorship network - 02.2025](pages/images/Pierre_coauthor_network.html){width=1000px height=1000px}
+
+[^1]: To create this graph, I first extracted information from my publications using the R package [scholar](https://CRAN.R-project.org/package=scholar). Then I used the R package [visNetwork](https://CRAN.R-project.org/package=visNetwork). The following [page](https://datalab.ucdavis.edu/project/creating-co-author-networks-in-r/) was also helpful for inspiration.
