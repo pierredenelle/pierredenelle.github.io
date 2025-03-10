@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/distance_river/index.html",
       "/posts/map_template/index.html"
     ]
   }
