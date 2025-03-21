@@ -32,7 +32,7 @@ Associated publication: <a href="https://doi.org/10.1002/ppp3.10226" target="_bl
 
 4\. Conservation priorities across New Guinea.  
 <https://gift.uni-goettingen.de/shiny/PNG/>  
-Associated article in revision.  
+Associated publication: <a href="https://doi.org/10.1016/j.gecco.2025.e03549" target="_blank"><img src="https://img.shields.io/badge/DOI-10.1016/j.gecco.2025.e03549-008fffff.svg"/></a>    
 
 <br>
 The following Shiny application is related to the study of Lirong Cai, in which I am a co-author. It also allows to download the raster and shapefile of the predicted plant richness on a global scale.  
