@@ -11,6 +11,7 @@ website:
         text: Home
       - pages/research_interests.qmd
       - pages/publications.qmd
+      - pages/teaching.qmd
       - pages/R_packages.qmd
     right: 
       - blog.qmd

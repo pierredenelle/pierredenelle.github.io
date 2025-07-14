@@ -1,0 +1,29 @@
+---
+title: "Teaching"
+---
+
+I have **560 hours** of teaching experience distributed across three modules for master's students at the University of Göttingen:
+
+## Modern methods and concepts in macroecology and biogeography
+
+**280 hours (56h/year), around 25 master students  **
+
+This module introduces students to the concepts and methods used in large-scale, spatial and temporal ecological analyses. It is divided into two equal parts. The first seven sessions of the semester consist of a one-hour lecture, a half-hour discussion of a scientific article, followed by two hours of supervised work on the computer. Students are guided through the analysis of a dataset using the free biostatistics software R. The various lessons and tutorials cover large-scale site x species matrix analysis, the manipulation of different spatial objects, the use of statistical models to study the effects of climatic variables on species diversity, the calculation of multidimensional biodiversity indices, etc. The content is archived [here](https://gift.uni-goettingen.de/mcmmb/).  
+
+The second part of this module follows a project-based pedagogical approach. Students are divided into pairs and assigned a research question and a predefined dataset. Students are also free to bring their own topic and dataset. The remaining seven sessions are devoted to guiding the different groups through the progress of their research question. The module ends with a short presentation of the work, and evaluation is based on a report that follows the format of a scientific article.  
+
+## Biodiversity of communities and ecosystems
+
+**70 hours (14h/year), around 20 master students  **
+
+I built this module from scratch. It consists of seven two-hour sessions that aim to train students in different methods of quantifying biodiversity. The methods covered include those for measuring α (species richness at the site scale), β (diversity between different sites), and γ (diversity at the regional scale) diversity; sampling correction by rarefaction or extrapolation; ordination; and clustering. The module concludes with an overview of other facets of biodiversity, such as functional and phylogenetic diversity. I employed a flipped classroom teaching method for this module. For each session, I recorded a video lecture introducing the topic. First, the students discuss the video, and then they move on to a computer-based tutorial to apply the covered concepts. Analyses are carried out using the R biostatistics software. Students are assessed by writing a short essay on measuring biodiversity in a given case study and analyzing a dataset using the methods seen in the tutorial. This module's content is archived at this [link](https://gift.uni-goettingen.de/community/).  
+
+## Plant and animal diversity
+
+**210 hours (42h/year), around 15 master students ** 
+
+I also built this module from scratch. It aims to train students to manage a research project, beginning with the data acquisition phase. The first two weeks consist of two lectures covering various aspects of ecological data acquisition. Topics include how to design a sampling plan, what data to collect, which inventory techniques are available depending on the taxon under study, and species identification. The following two weeks are devoted to field trips. Students will present practical examples of botanical and zoological surveys (birds and soil macrofauna) during the following two weeks. During the fifth week, students work in pairs to define a research project under my supervision. The remainder of the module is devoted to acquiring data according to the predefined sampling plan and analyzing the collected data. I assist the various groups during these phases. A midterm presentation may help identify specific needs or refocus projects. Evaluation is based on a final presentation and a scientific report on the analysis carried out.  
+
+## Miscellaneous
+
+In addition to these three modules, I led a one-day workshop focused on functional diversity and another one-day workshop focused on the use of the GIFT database. I also gave a guest lecture in a Bachelor's-level Plant Diversity class.  
