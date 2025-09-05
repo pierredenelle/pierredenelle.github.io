@@ -1,7 +1,7 @@
 ---
 title: "Minimum distances from river network"
 subtitle: "spatial distance with R"
-date: "10/03/2025"
+date: "03/10/2025"
 image: "seine_multi.png"
 categories: [dataviz, how-to]
 ---
