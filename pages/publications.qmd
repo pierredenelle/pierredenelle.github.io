@@ -5,11 +5,13 @@ title: "Publications"
 ## Peer-reviewed articles
 ### 2025
 
-29\. Parsch, C., **Denelle, P.**, Bless, E., & Kreft, H. Diverging Conservation Priorities Across New Guinea: Conflicts and Opportunities. *Global Ecology and Conservation*. <https://doi.org/10.1016/j.gecco.2025.e03549>
+30\. Parsch, C., **Denelle, P.**, Bless, E., & Kreft, H. Diverging Conservation Priorities Across New Guinea: Conflicts and Opportunities. *Global Ecology and Conservation*. <https://doi.org/10.1016/j.gecco.2025.e03549>
 
-28\. Dugerdil, L., Peyron, O., Violle, C., Joannin, S., Ménot, G., **Denelle, P.**, Bruelheide, H., Chytrý, M., Field, R., Hatim, M. Z., Gholizadeh, H., Dolezal, J., Pillar, V. D., Shaltout, K. H., Schrodt, F., & Garnier, E. Functional Signatures of Surface Pollen and Vegetation Are Broadly Similar: Good News for Past Reconstructions of Vegetation. *Journal of Biogeography*. <https://doi.org/10.1111/jbi.15100>
+29\. Dugerdil, L., Peyron, O., Violle, C., Joannin, S., Ménot, G., **Denelle, P.**, Bruelheide, H., Chytrý, M., Field, R., Hatim, M. Z., Gholizadeh, H., Dolezal, J., Pillar, V. D., Shaltout, K. H., Schrodt, F., & Garnier, E. Functional Signatures of Surface Pollen and Vegetation Are Broadly Similar: Good News for Past Reconstructions of Vegetation. *Journal of Biogeography*. <https://doi.org/10.1111/jbi.15100>
 
-27\. **Denelle, P.,** Leroy, B., & Lenormand, M. Bioregionalization analyses with the bioregion R package. *Methods in Ecology and Evolution*. <https://doi.org/10.1111/2041-210X.14496>
+28\. **Denelle, P.,** Leroy, B., & Lenormand, M. Bioregionalization analyses with the bioregion R package. *Methods in Ecology and Evolution*. <https://doi.org/10.1111/2041-210X.14496>
+
+27\. Bellard, C., Marino, C., Butt, N., Fernández-Palacios, J.-M., Rigal, F., Robuchon, M., Lenoir, J., Irl, S., Benítez-López, A., Capdevila, P., Zhu, G., Caetano, G., **Denelle, P.,** Philippe-Lesaffre, M., Schipper, A., Foden, W., Kissling, D., & Leclerc, C. A framework to quantify the vulnerability of insular biota to global change. *Peer Community Journal, 5*. <https://doi.org/10.24072/pcjournal.557/>
 
 ### 2024
 
@@ -78,10 +80,6 @@ title: "Publications"
 2\. Borgy, B., Violle, C., Choler, P., Garnier, E., Kattge, J., Loranger, J., Amiaud, B., Cellier, P., Debarros, G., **Denelle, P.**, Diquelou, S., Gachet, S., Jolivet, C., Lavorel, S., Lemauviel-Lavenant, S., Mikolajczak, A., Munoz, F., Olivier, J., & Viovy, N. Sensitivity of community-level trait–environment relationships to data representativeness: A test for functional biogeography. *Global Ecology and Biogeography*, 26, 729–739. <https://doi.org/10.1111/geb.12573>
 
 1\. Allen, K.A**., Denelle, P.,** Ruiz, F.M.S., Santana, V.M., & Marrs, R.H. Prescribed moorland burning meets good practice guidelines: A monitoring case study using aerial photography in the Peak District, UK. *Ecological Indicators*, 62, 76–85. <https://doi.org/10.1016/j.ecolind.2015.11.030>
-
-## Preprint
-
-1\. Bellard, C., Marino, C., Butt, N., Fernández-Palacios, J.-M., Rigal, F., Robuchon, M., Lenoir, J., Irl, S., Benítez-López, A., Capdevila, P., Zhu, G., Caetano, G., **Denelle, P.,** Philippe-Lesaffre, M., Schipper, A., Foden, W., Kissling, D., & Leclerc, C. A framework to quantify the vulnerability of insular biota to global change. <https://hal.science/hal-04550966/>
 
 ## Thesis
 
