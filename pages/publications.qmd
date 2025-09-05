@@ -11,7 +11,7 @@ title: "Publications"
 
 28\. **Denelle, P.,** Leroy, B., & Lenormand, M. Bioregionalization analyses with the bioregion R package. *Methods in Ecology and Evolution*. <https://doi.org/10.1111/2041-210X.14496>
 
-27\. Bellard, C., Marino, C., Butt, N., Fernández-Palacios, J.-M., Rigal, F., Robuchon, M., Lenoir, J., Irl, S., Benítez-López, A., Capdevila, P., Zhu, G., Caetano, G., **Denelle, P.,** Philippe-Lesaffre, M., Schipper, A., Foden, W., Kissling, D., & Leclerc, C. A framework to quantify the vulnerability of insular biota to global change. *Peer Community Journal, 5*. <https://doi.org/10.24072/pcjournal.557/>
+27\. Bellard, C., Marino, C., Butt, N., Fernández-Palacios, J.-M., Rigal, F., Robuchon, M., Lenoir, J., Irl, S., Benítez-López, A., Capdevila, P., Zhu, G., Caetano, G., **Denelle, P.,** Philippe-Lesaffre, M., Schipper, A., Foden, W., Kissling, D., & Leclerc, C. A framework to quantify the vulnerability of insular biota to global change. *Peer Community Journal, 5*. <https://doi.org/10.24072/pcjournal.557>
 
 ### 2024
 
