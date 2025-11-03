@@ -12,6 +12,7 @@ R packages provide ready-to-use toolkits for the scientific community. Here is a
 | [ecolottery](https://github.com/frmunoz/ecolottery) | [1.0.0](https://CRAN.R-project.org/package=ecolottery)         | Community assembly model using coalescent theory, neutral and deterministic processes                                                                  |
 | [GIFT](https://github.com/biogeomacro/gift)         | [1.3.3](https://CRAN.R-project.org/package=GIFT)                                                                                  | Access the Global Inventory of Floras and Traits (GIFT) database (see more at <https://biogeomacro.github.io/GIFT/>) |
 | [bioregion](https://github.com/biorgeo/bioregion)    | [1.2.0](https://CRAN.R-project.org/package=bioregion)             | Workflow to perform a bioregionalization analysis (see more at <https://biorgeo.github.io/bioregion/>)                               |
+| [latbias](https://github.com/pierredenelle/latbias)    | [1.0.0](https://CRAN.R-project.org/package=latbias)             | R package to calcualte the Latitudinal Bias Index (LBI)                               |
 
 ## Shiny applications
 
