@@ -11,13 +11,13 @@ image: pages/images/coauthorship_network.png
 </style>
 ```
 
-Welcome to this site! I am a postdoctoral researcher at the University of Göttingen, in the [Biodiversity, Macroecology and Biogeography](https://www.uni-goettingen.de/en/128741.html) team.
+Welcome to this site! I am a postdoctoral researcher at the CNRS research laboratory Ecosystems, Biodiversity & Evolution [ECOBIO](https://ecobio.univ-rennes.fr/en/ecobio-umr6553-ur1-cnrs-research-laboratory) in Rennes
 
 ::: {.flushright data-latex=""}
 My research focuses on community assembly, functional ecology, and biogeography/macroecology. Through these disciplines, I seek to understand what governs the presence of species in a given environment, taking into account biotic and abiotic constraints at different scales. To address these issues, I draw in particular on the theoretical and methodological contributions of functional ecology.
 Although most of this work focuses on vascular plants, I am always interested in and curious about applying the concepts and methods to other taxa.
 
-As of March 2025, I have participated in 30 peer-reviewed publications that address these questions. You can find all these publications in the dedicated section.
+As of December 2025, I have participated in 31 peer-reviewed publications that address these questions. You can find all these publications in the dedicated section.
 
 Below is an interactive visualization of my coauthorship network[^1], with a total of 158 coauthors, which I hope will continue to grow and expand.
 :::
