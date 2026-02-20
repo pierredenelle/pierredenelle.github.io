@@ -24,7 +24,7 @@ Below is a list of Shiny applications I have authored:
 Associated publication: <a href="https://doi.org/10.1111/geb.12623" target="_blank"><img src="https://img.shields.io/badge/DOI-10.1111/geb.12623-008fffff.svg"/></a>   
 
 2\. Bioregionalization of French vegetation.  
-<https://shiny.umr-tetis.fr/CarHab/>  
+<https://biogeofr.sk8.inrae.fr/>  
 Associated publication (in French) [here](https://hal-lara.archives-ouvertes.fr/hal-04269906/).  
 
 3\. Application to test and train botanical knowledge.  
