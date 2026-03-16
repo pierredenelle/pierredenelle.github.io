@@ -3,6 +3,9 @@ title: "Publications"
 ---
 
 ## Peer-reviewed articles
+### 2026
+32\. Marino, C., Benítez-López, A., Butt, N., Caetano, G., Capdevila, P., **Denelle, P.**, Etard, A., Fernández Palacios, J.M.,Ferreiro-Arias, I., Leclerc, C., Lenoir, J., Philippe-Lesaffre, M., Rigal, F., & Bellard, C. Contrasting vulnerability profiles for insular assemblages of birds and mammals facing global change. *Conservation Biology*. <https://doi.org/10.1111/cobi.70261>
+
 ### 2025
 
 31\. Sanczuk, P., Lenoir, J., **Denelle, P.**, Rumpf, S. B., Borderieux, J., Geppert, C., Oliveira, B. F., & Staude, I. Global bias towards recording latitudinal range shifts. *Nature Climate Change*. <https://doi.org/10.1038/s41558-025-02498-5>
