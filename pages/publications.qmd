@@ -4,6 +4,10 @@ title: "Publications"
 
 ## Peer-reviewed articles
 ### 2026
+34\. Dugerdil, L., Peyron, O., Violle, C., Joannin, S., Ménot, G., **Denelle, P.**, Bruelheide, H., Field, R., Hatim, M. Z., Gholizadeh, H., Dolezal, J., Pillar, V. D., Shaltout, K. H., Schrodt, F., & Garnier, E. Trait–Climate Relationships Are Comparable for Modern Pollen Assemblages and Extant Vegetation Plots. *Global Ecology and Biogeography*. <https://doi.org/10.1111/geb.70303>
+
+33\. Schultz, L., Mottl, O., Pacheco-Riaño, C., Rentier, E., **Denelle, P.**, ..., Grytnes, J.A., & Flantua, S. Contrasting Patterns of Alpine Biodiversity across Mountains and Taxa Worldwide. *Nature Communications*. <https://doi.org/10.1038/s41467-026-75210-6>
+
 32\. Marino, C., Benítez-López, A., Butt, N., Caetano, G., Capdevila, P., **Denelle, P.**, Etard, A., Fernández Palacios, J.M.,Ferreiro-Arias, I., Leclerc, C., Lenoir, J., Philippe-Lesaffre, M., Rigal, F., & Bellard, C. Contrasting vulnerability profiles for insular assemblages of birds and mammals facing global change. *Conservation Biology*. <https://doi.org/10.1111/cobi.70261>
 
 ### 2025

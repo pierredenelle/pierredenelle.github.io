@@ -49,8 +49,8 @@ sm_sf <- st_as_sf(sm)
 seine_sf <- st_as_sf(seine)
 
 # Crop seine to Seine-Maritime department
-seine_int <- seine_sf %>%
-  st_transform(crs = st_crs(sm_sf)) %>% # same CRS
+seine_int <- seine_sf |>
+  st_transform(crs = st_crs(sm_sf)) |> # same CRS
   st_intersection(sm_sf) # crop
 
 # Draw grid
@@ -96,8 +96,8 @@ seine_sf <- st_as_sf(seine)
 
 sf_use_s2(FALSE)
 
-seine_int <- seine_sf %>%
-  st_transform(crs = st_crs(fr_departments_sf)) %>% # same CRS
+seine_int <- seine_sf |>
+  st_transform(crs = st_crs(fr_departments_sf)) |> # same CRS
   st_intersection(fr_departments_sf) # crop
 
 fr_departments_grid <- st_make_grid(fr_departments_sf, cellsize = 0.5,
